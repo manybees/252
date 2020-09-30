@@ -1,0 +1,97 @@
+html{
+	background-color: goldenrod;
+	padding-left: 50px;
+	padding-right: 50px
+}
+
+main{
+	background-color:oldlace ;
+	margin-bottom: none:;
+	align-content: center;
+}
+
+p{
+	font-size: 20pt;
+	text-indent: 20px;
+
+}
+
+h1{
+	background-color: moccasin;
+	padding-left: 10px;
+	color: navy;
+}
+
+h2{
+	font-size: 30pt;
+	margin-top: 15px;
+	color: navy;
+}
+
+div#header{
+	background-color: gold;
+}
+
+h5{
+	color: navy;
+}
+
+img{
+	align-content: center;
+}
+
+img#bee{
+		height: 33vw;
+		width: auto;
+		outline: gold;
+		outline-style: solid;
+		outline-width: 6px;
+}
+
+img#bee2{
+		width: 37vw;
+		height: auto;
+		outline: gold;
+		outline-style: solid;
+		outline-width: 6px;
+}
+
+.col-sm-4{
+	margin:20px;
+}
+
+div#lab3{
+	margin: 20px;
+}
+
+img#bee3{
+	width: 32vw;
+	height: auto;
+	outline: gold;
+	outline-style: solid;
+	outline-width: 6px;
+}
+
+
+img#outline4{
+	max-width: 32vw;
+	outline: gold;
+	outline-style: solid;
+	outline-width: 6px;
+}
+
+img#inConsole{
+	max-width: 32vw;
+	outline: gold;
+	outline-style: solid;
+	outline-width: 6px
+
+}
+
+img#car{
+	max-width: 32vw;
+	outline: gold;
+	outline-style: solid;
+	outline-width: 6px
+
+}
