@@ -1,16 +1,26 @@
 h1{
   font-family: monospace,sans-serif;
+  margin: 8px;
+}
+
+h2{
+	font-size: 35pt;
+	color: navy;
 }
 
 p{
-  font-family: serif;
+  font-family: sans-serif;
+  color: navy;
+  font-size: 20pt;
 }
 
-div#body{
-  background-color: hsl(145, 100%, 68%);
+#bod{
+  background-color: azure;
 
 }
 
-html{
-  background-color: hsl(145, 41%, 88%);
+body{
+  background-color: cornsilk;
 }
+
+
