@@ -1,38 +1,21 @@
 //Kalyn Daum
-//Defining Functions
-function firstThing(test) {
-	console.log (test + " This is the first!")
-};
-function secondThing(test) {
-	console.log (test + " This is the second!")
-};
-function thirdThing(test) {
-	console.log(test + " This is the third!")
+//variable
+var button = document.getElementById('my-button');
+var input = document.getElementById('my-input');
+var heading = document.getElementById("heading");
+
+//event
+button.addEventListener('click', function() {
+ inputValue = document.getElementById('my-input').value;
+ console.log("You input:", inputValue);
+});
+
+function nameInsert(){
+
+var name = input.value;
+
+ heading.innerText = "Hello, " + inputValue;
+
 }
 
-//Test 1
-firstThing("TEST 1");
-secondThing("TEST 1");
-thirdThing("TEST 1");
-
-//Test 2
-setTimeout(function(){
-	firstThing("Test 2");
-} ,0);
-setTimeout(function(){
-	secondThing("Test 2");
-} ,0);
-setTimeout(function(){
-	thirdThing("Test 2");
-} ,0);
-
-//Test 3 2, 3, 1
-setTimeout(function(){
-	firstThing("Test 3");
-} ,3000);
-setTimeout(function(){
-	secondThing("Test 3");
-} ,1000);
-setTimeout(function(){
-	thirdThing("Test 3");
-} ,2000);
+button.addEventListener('click', nameInsert);
