@@ -1,0 +1,16 @@
+h1{
+  font-family: monospace,sans-serif;
+}
+
+p{
+  font-family: serif;
+}
+
+div#body{
+  background-color: hsl(145, 100%, 68%);
+
+}
+
+html{
+  background-color: hsl(145, 41%, 88%);
+}
